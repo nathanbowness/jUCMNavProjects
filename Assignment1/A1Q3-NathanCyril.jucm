@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:grl="http:///grl.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="Nathan" created="March 17, 2023 at 2:24:06 PM EDT" modified="March 17, 2023 at 2:41:25 PM EDT" specVersion="3" urnVersion="1.27" nextGlobalID="99">
+<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:grl="http:///grl.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="Nathan" created="March 17, 2023 at 2:24:06 PM EDT" modified="March 17, 2023 at 2:46:29 PM EDT" specVersion="4" urnVersion="1.27" nextGlobalID="99">
   <ucmspec>
     <scenarioGroups name="ScenarioGroup5" id="5">
       <scenarios name="ScenarioDef6" id="6"/>
@@ -19,8 +19,8 @@
     <intElements name="Task38" id="38" linksSrc="93" type="Task" refs="39"/>
     <intElements name="Task40" id="40" linksSrc="83" type="Task" refs="41"/>
     <intElements name="Task42" id="42" linksSrc="84" type="Task" refs="43"/>
-    <intElements name="Softgoal46" id="46" refs="47"/>
-    <intElements name="Softgoal48" id="48" refs="49"/>
+    <intElements name="Minimize Work Needed to Get the Letters" id="46" refs="47"/>
+    <intElements name="See Progress of Requests for Recommendation Letters" id="48" refs="49"/>
     <intElements name="Softgoal50" id="50" refs="51"/>
     <intElements name="Softgoal52" id="52" refs="53"/>
     <intElements name="Softgoal54" id="54" refs="55"/>
@@ -101,13 +101,13 @@
         <metadata name="_height" value="45"/>
         <metadata name="_width" value="110"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef47" id="47" x="310" y="56" contRef="61" def="46">
-        <metadata name="_height" value="45"/>
-        <metadata name="_width" value="110"/>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef47" id="47" x="285" y="54" contRef="61" def="46">
+        <metadata name="_height" value="51"/>
+        <metadata name="_width" value="162"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef49" id="49" x="309" y="130" contRef="61" def="48">
-        <metadata name="_height" value="45"/>
-        <metadata name="_width" value="110"/>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef49" id="49" x="260" y="128" contRef="61" def="48">
+        <metadata name="_height" value="52"/>
+        <metadata name="_width" value="197"/>
       </nodes>
       <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef51" id="51" x="298" y="583" contRef="63" def="50">
         <metadata name="_height" value="45"/>
