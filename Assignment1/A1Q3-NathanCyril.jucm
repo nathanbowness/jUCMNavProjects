@@ -1,115 +1,49 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:grl="http:///grl.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="Nathan" created="March 17, 2023 at 2:24:06 PM EDT" modified="March 18, 2023 at 3:06:43 PM EDT" specVersion="23" urnVersion="1.27" nextGlobalID="495">
+<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:grl="http:///grl.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="Nathan" created="March 17, 2023 at 2:24:06 PM EDT" modified="March 18, 2023 at 3:12:53 PM EDT" specVersion="24" urnVersion="1.27" nextGlobalID="495">
   <ucmspec>
-    <scenarioGroups name="ScenarioGroup5" id="5">
-      <scenarios name="ScenarioDef6" id="6"/>
-    </scenarioGroups>
+    <scenarioGroups name="ScenarioGroup5" id="5"/>
   </ucmspec>
   <grlspec>
-    <intElements name="Email Notifications to Recommenders" id="16" linksDest="89 93" linksSrc="91" type="Goal" decompositionType="Or" refs="17 111 209 223">
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
-    </intElements>
-    <intElements name="Secure Input of Letters and Scores by Recommenders" id="18" linksDest="97 98" linksSrc="95" type="Goal" decompositionType="Or" refs="19 109 203 217">
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
-    </intElements>
-    <intElements name="Input of Recommender's Coordinates by Students" id="20" linksDest="79 80" linksSrc="77" type="Goal" decompositionType="Or" refs="21 113 206 220">
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
-    </intElements>
-    <intElements name="Email Notification to Students" id="22" linksDest="83 84" linksSrc="74" type="Goal" decompositionType="Or" refs="23 114 211 225">
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
-    </intElements>
-    <intElements name="Goal24" id="24" type="Goal">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="Denied"/>
-    </intElements>
+    <intElements name="Email Notifications to Recommenders" id="16" linksDest="89 93" linksSrc="91" type="Goal" decompositionType="Or" refs="17 111 209 223"/>
+    <intElements name="Secure Input of Letters and Scores by Recommenders" id="18" linksDest="97 98" linksSrc="95" type="Goal" decompositionType="Or" refs="19 109 203 217"/>
+    <intElements name="Input of Recommender's Coordinates by Students" id="20" linksDest="79 80" linksSrc="77" type="Goal" decompositionType="Or" refs="21 113 206 220"/>
+    <intElements name="Email Notification to Students" id="22" linksDest="83 84" linksSrc="74" type="Goal" decompositionType="Or" refs="23 114 211 225"/>
+    <intElements name="Goal24" id="24" type="Goal"/>
     <intElements name="Students Input All Information of Recommenders" id="28" linksSrc="79 129 231" type="Task" refs="29 118 204 218">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements name="Student Input Only Name and Email of Recommenders" id="30" linksSrc="80 130 232" type="Task" refs="31 112 201 215">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="Denied"/>
     </intElements>
     <intElements name="Account Created by Recommender" id="32" linksSrc="97 229 237" type="Task" refs="33 116 210 224">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements name="No Account, Hyperlink Only" id="34" linksSrc="98 228 238" type="Task" refs="35 108 200 214">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="Denied"/>
     </intElements>
     <intElements name="Send Initial and Reminder Emails to Recommenders" id="36" linksSrc="89 134 234 241" type="Task" refs="37 115 202 216">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="Denied"/>
     </intElements>
     <intElements name="Send One Notif. Email to Recommender" id="38" linksSrc="93 133 233 240" type="Task" refs="39 119 212 226">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements name="Send and Email Each Time a Recommender Submits" id="40" linksSrc="83 131 242" type="Task" refs="41 120 205 219">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="Denied"/>
     </intElements>
     <intElements name="Send an Email After Both Recommenders Submit" id="42" linksSrc="84 132 243" type="Task" refs="43 117 208 222">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
-    <intElements name="Minimize Work Needed to Get the Letters" id="46" linksDest="129 130 133 134" importance="Low" importanceQuantitative="25" refs="47 126">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="Denied"/>
-    </intElements>
-    <intElements name="See Progress of Requests for Recommendation Letters" id="48" linksDest="131 132" importance="High" importanceQuantitative="75" refs="49 127">
-      <metadata name="_numEval" value="30"/>
-      <metadata name="_qualEval" value="WeaklyDenied"/>
-    </intElements>
-    <intElements name="Avoid Remembering Usernames and Passwords" id="50" linksDest="228 229" importance="High" importanceQuantitative="80" refs="51 166">
-      <metadata name="_numEval" value="50"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
-    <intElements name="Minimized Time Spent Writing Letters and Related Info" id="52" linksDest="231 232 233 234" importance="Low" importanceQuantitative="20" refs="53 165">
-      <metadata name="_numEval" value="60"/>
-      <metadata name="_qualEval" value="WeaklySatisfied"/>
-    </intElements>
-    <intElements name="Ensure Authenticity of Support Letters" id="54" linksDest="237 238" importance="High" importanceQuantitative="70" refs="55 183">
-      <metadata name="_numEval" value="70"/>
-      <metadata name="_qualEval" value="WeaklySatisfied"/>
-    </intElements>
-    <intElements name="Keep Acquisition Costs Down for System" id="56" linksDest="240 241 242 243" importance="Low" importanceQuantitative="30" refs="57 184">
-      <metadata name="_numEval" value="75"/>
-      <metadata name="_qualEval" value="WeaklySatisfied"/>
-    </intElements>
-    <intElements name="Full-Support" id="70" linksDest="74 77 91 95" type="Goal" importance="High" importanceQuantitative="100" refs="71 110 207 221">
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
-    </intElements>
-    <actors name="Students" id="60" contRefs="61 128">
-      <metadata name="_numEval" value="22"/>
-      <metadata name="_qualEval" value="WeaklyDenied"/>
-    </actors>
-    <actors name="Recommenders" id="62" contRefs="63 167">
-      <metadata name="_numEval" value="52"/>
-      <metadata name="_qualEval" value="WeaklySatisfied"/>
-    </actors>
-    <actors name="University" id="64" contRefs="65 185">
-      <metadata name="_numEval" value="71"/>
-      <metadata name="_qualEval" value="WeaklySatisfied"/>
-    </actors>
-    <actors name="System" id="66" contRefs="67 121 213 227">
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
-    </actors>
+    <intElements name="Minimize Work Needed to Get the Letters" id="46" linksDest="129 130 133 134" importance="Low" importanceQuantitative="25" refs="47 126"/>
+    <intElements name="See Progress of Requests for Recommendation Letters" id="48" linksDest="131 132" importance="High" importanceQuantitative="75" refs="49 127"/>
+    <intElements name="Avoid Remembering Usernames and Passwords" id="50" linksDest="228 229" importance="High" importanceQuantitative="80" refs="51 166"/>
+    <intElements name="Minimized Time Spent Writing Letters and Related Info" id="52" linksDest="231 232 233 234" importance="Low" importanceQuantitative="20" refs="53 165"/>
+    <intElements name="Ensure Authenticity of Support Letters" id="54" linksDest="237 238" importance="High" importanceQuantitative="70" refs="55 183"/>
+    <intElements name="Keep Acquisition Costs Down for System" id="56" linksDest="240 241 242 243" importance="Low" importanceQuantitative="30" refs="57 184"/>
+    <intElements name="Full-Support" id="70" linksDest="74 77 91 95" type="Goal" importance="High" importanceQuantitative="100" refs="71 110 207 221"/>
+    <actors name="Students" id="60" contRefs="61 128"/>
+    <actors name="Recommenders" id="62" contRefs="63 167"/>
+    <actors name="University" id="64" contRefs="65 185"/>
+    <actors name="System" id="66" contRefs="67 121 213 227"/>
     <links xsi:type="grl:Decomposition" name="Decomposition74" id="74" refs="//@urndef/@specDiagrams.0/@connections.0 //@urndef/@specDiagrams.1/@connections.5 //@urndef/@specDiagrams.2/@connections.9 //@urndef/@specDiagrams.3/@connections.9" dest="70" src="22"/>
     <links xsi:type="grl:Decomposition" name="Decomposition77" id="77" refs="//@urndef/@specDiagrams.0/@connections.1 //@urndef/@specDiagrams.1/@connections.3 //@urndef/@specDiagrams.2/@connections.4 //@urndef/@specDiagrams.3/@connections.4" dest="70" src="20"/>
     <links xsi:type="grl:Decomposition" name="Decomposition79" id="79" refs="//@urndef/@specDiagrams.0/@connections.2 //@urndef/@specDiagrams.1/@connections.9 //@urndef/@specDiagrams.2/@connections.2 //@urndef/@specDiagrams.3/@connections.2" dest="20" src="28"/>
